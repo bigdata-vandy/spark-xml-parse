@@ -63,7 +63,7 @@ object XMLParseApp {
     // Creates the new Spark configuration
     val conf = new SparkConf()
       .setAppName("Word Count Application")
-      .setMaster("local[1]")
+      //.setMaster("local[1]")
 
     // Creates new Spark contenxt
     val sc = new SparkContext(conf)
