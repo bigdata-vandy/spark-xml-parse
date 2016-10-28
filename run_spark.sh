@@ -1,9 +1,11 @@
 #!/bin/bash
 
 if [ $# -ne 0 ]; then
-    echo $0: "usage: ./run_spark.sh" 
-    exit 1
+  echo $0: "usage: ./$0" 
+  exit 1
 fi
+
+echo Using Spark from $SPARK_HOME
 
 #input=resources/Posts.xml
 input=stack/productivity/Posts.xml
